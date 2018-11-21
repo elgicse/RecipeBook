@@ -1,0 +1,81 @@
+---
+recipes:
+    - title: Ragù napoletano
+      ingredients:
+        - ingredient 1
+        - ingredient 2
+      text: Maybe some text.
+      figure:
+        file: img/ragu-napoletano-0.jpg
+        landscape: y
+
+    - title: Tagliata di tonno al mandarino
+      ingredients:
+        - filetto di tonno fresco
+        - 2 mandarini
+        - aceto balsamico
+        - olio
+        - sale
+        - miele
+      text: 
+        "Per la salsa: scorza di un mandarino, succo di due mandarini,
+        una noce di miele, un cucchiaio di aceto balsamico,
+        olio e sale q.b.
+
+        Scaldare in un pentolino finché non si rapprende un po'.
+
+        Cuocere il filetto 1-2 minuti da ogni lato. Tagliare a fette, condire."
+      figure:
+        file: img/tonno-al-mandarino-0.jpg
+        landscape: y
+
+    - title: Pasta e fagioli
+      ingredients:
+        - 200 g pasta tipo gramigna
+        - 2 carote
+        - 1 gambo di sedano
+        - 1 cipolla piccola
+        - 500 g fagioli precotti
+        - una fetta spessa 1.5 cm di prosciutto
+        - cotenne di prosciutto se disponibili
+        - 2 croste di parmigiano
+        - 2 foglie di alloro
+        - olio
+        - sale
+        - pepe
+        - peperoncino fresco
+      text: 
+        "Tritare le carote, il sedano e la cipolla.
+        Soffriggerle in una casseruola con il peperoncino fresco
+        a piccoli pezzi, l'olio e le cotenne.
+        Intanto tagliare il prosciutto a cubetti, eliminare
+        il grasso quanto possibile. Aggiungerli in pentola, insieme
+        ai funghi ben scolati e alle croste di parmigiano a cubetti.
+        Far cuocere 5 minuti, poi aggiungere la pasta e l'alloro,
+        e coprire con acqua calda. Regolare di sale e aggiungere acqua
+        se si asciuga troppo. Portare la pasta a cottura, poi eliminare
+        le cotenne e le foglie di alloro. Aggiungere pepe in abbondanza."
+      figure:
+        file: img/pasta-e-fagioli-1.jpg
+        landscape: y
+
+    - title: Recipe title
+      ingredients:
+        - ingredient 1
+        - ingredient 2
+        - ingredient 3
+      text: Maybe some text.
+      figure:
+        file: img/test/test.jpg
+        landscape: n
+
+    - title: Carbonara
+      ingredients:
+        - ingredient 1
+        - ingredient 2
+        - ingredient 3
+      text: Maybe some text.
+      figure:
+        file: img/carbonara-0.jpg
+        landscape: n
+...

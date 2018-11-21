@@ -1,0 +1,54 @@
+% @Author: elena
+% @Date:   2018-11-20 11:34:59
+% @Last Modified by:   elena
+% @Last Modified time: 2018-11-21 08:34:40
+\documentclass[a5paper,pdflatex]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+% Leave some margin at the bottom to preserve the page number
+\geometry{top=1.3cm, bottom=2.3cm, left=1.3cm, right=1.3cm}
+\usepackage{graphicx}
+\usepackage{bookman}
+\usepackage{enumitem}
+\setlist{noitemsep}
+
+% Run:
+%   pandoc recipes/recipes.yaml --template=template.tex -o recipes.pdf
+% or:
+%   pandoc recipes/recipes.yaml --template=template.tex -o recipes.tex
+
+\begin{document}
+
+$for(recipes)$
+    $if(recipes.figure.landscape)$
+    \section*{$recipes.title$}
+
+    \begin{itemize}
+    $for(recipes.ingredients)$
+        \item $recipes.ingredients$
+    $endfor$
+    \end{itemize}
+
+    $recipes.text$
+    \begin{figure}[hb!]%\centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
+    \end{figure}
+    $else$
+    \begin{figure}[hp!]%\centering
+    \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
+    \end{figure}
+    \cleardoublepage
+
+    \section*{$recipes.title$}
+    \begin{itemize}
+    $for(recipes.ingredients)$
+        \item $recipes.ingredients$
+    $endfor$
+    \end{itemize}
+
+    $recipes.text$
+    $endif$
+$sep$\clearpage
+$endfor$
+
+\end{document}
