@@ -1,7 +1,7 @@
 % @Author: elena
 % @Date:   2018-11-20 11:34:59
 % @Last Modified by:   Elena Graverini
-% @Last Modified time: 2018-11-21 11:43:07
+% @Last Modified time: 2018-11-21 12:02:10
 \documentclass[a5paper,pdflatex]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
@@ -13,6 +13,7 @@
 \setlist{noitemsep}
 %\usepackage[absolute]{textpos}
 \usepackage{tikz}
+\newdimen\toppicbottom
 
 % Run:
 %   pandoc recipes/recipes.yaml --template=template.tex -o recipes.pdf
@@ -24,6 +25,17 @@
 $for(recipes)$
 
     $if(recipes.figure.landscape)$
+        
+        %\begin{figure}[hb!]%\centering
+        %\noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
+        %\end{figure}
+        \begin{tikzpicture}[remember picture, overlay, baseline] \node[anchor=north,opacity=1.0,inner sep=0pt] (toppic) at (current page.north){\raisebox{-\height}{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}};
+        \pgfextracty{\global\toppicbottom}{\pgfpointanchor{toppic}{south}}
+        \end{tikzpicture}
+        \vspace{-1\toppicbottom}
+        
+        %\vfill
+        %\vfill
         \section*{$recipes.title$}
 
         \begin{itemize}
@@ -33,9 +45,8 @@ $for(recipes)$
         \end{itemize}
 
         $recipes.text$
-        \begin{figure}[hb!]%\centering
-        \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
-        \end{figure}
+
+        %\vfill
 
     $else$
 
