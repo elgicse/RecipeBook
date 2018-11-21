@@ -1,16 +1,18 @@
 % @Author: elena
 % @Date:   2018-11-20 11:34:59
-% @Last Modified by:   elena
-% @Last Modified time: 2018-11-21 08:34:40
+% @Last Modified by:   Elena Graverini
+% @Last Modified time: 2018-11-21 11:41:22
 \documentclass[a5paper,pdflatex]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
 % Leave some margin at the bottom to preserve the page number
-\geometry{top=1.3cm, bottom=2.3cm, left=1.3cm, right=1.3cm}
+\geometry{paperwidth=148mm, paperheight=210mm, top=1.3cm, bottom=1.3cm, left=1.3cm, right=1.3cm, includefoot}
 \usepackage{graphicx}
 \usepackage{bookman}
 \usepackage{enumitem}
 \setlist{noitemsep}
+%\usepackage[absolute]{textpos}
+\usepackage{tikz}
 
 % Run:
 %   pandoc recipes/recipes.yaml --template=template.tex -o recipes.pdf
@@ -34,9 +36,14 @@ $for(recipes)$
     \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
     \end{figure}
     $else$
-    \begin{figure}[hp!]%\centering
-    \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
-    \end{figure}
+    \thispagestyle{empty}
+    \tikz[remember picture,overlay] \node[opacity=1.0,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$recipes.figure.file$}};
+    %\begin{textblock*}{210mm}(0mm,0mm)
+    %\noindent\includegraphics[width=\paperwidth]{$recipes.figure.file$}
+    %\end{textblock*}
+    %\begin{figure}[hp!]%\centering
+    %\noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
+    %\end{figure}
     \cleardoublepage
 
     \section*{$recipes.title$}
