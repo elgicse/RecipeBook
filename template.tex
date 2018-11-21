@@ -1,7 +1,7 @@
 % @Author: elena
 % @Date:   2018-11-20 11:34:59
 % @Last Modified by:   Elena Graverini
-% @Last Modified time: 2018-11-21 11:41:22
+% @Last Modified time: 2018-11-21 11:43:07
 \documentclass[a5paper,pdflatex]{scrartcl}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
@@ -22,38 +22,36 @@
 \begin{document}
 
 $for(recipes)$
+
     $if(recipes.figure.landscape)$
-    \section*{$recipes.title$}
+        \section*{$recipes.title$}
 
-    \begin{itemize}
-    $for(recipes.ingredients)$
-        \item $recipes.ingredients$
-    $endfor$
-    \end{itemize}
+        \begin{itemize}
+        $for(recipes.ingredients)$
+            \item $recipes.ingredients$
+        $endfor$
+        \end{itemize}
 
-    $recipes.text$
-    \begin{figure}[hb!]%\centering
-    \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
-    \end{figure}
+        $recipes.text$
+        \begin{figure}[hb!]%\centering
+        \noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
+        \end{figure}
+
     $else$
-    \thispagestyle{empty}
-    \tikz[remember picture,overlay] \node[opacity=1.0,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$recipes.figure.file$}};
-    %\begin{textblock*}{210mm}(0mm,0mm)
-    %\noindent\includegraphics[width=\paperwidth]{$recipes.figure.file$}
-    %\end{textblock*}
-    %\begin{figure}[hp!]%\centering
-    %\noindent\makebox[\textwidth]{\includegraphics[width=\paperwidth]{$recipes.figure.file$}}
-    %\end{figure}
-    \cleardoublepage
 
-    \section*{$recipes.title$}
-    \begin{itemize}
-    $for(recipes.ingredients)$
-        \item $recipes.ingredients$
-    $endfor$
-    \end{itemize}
+        \thispagestyle{empty}
+        \tikz[remember picture,overlay] \node[opacity=1.0,inner sep=0pt] at (current page.center){\includegraphics[width=\paperwidth,height=\paperheight]{$recipes.figure.file$}};
 
-    $recipes.text$
+        \cleardoublepage
+
+        \section*{$recipes.title$}
+        \begin{itemize}
+        $for(recipes.ingredients)$
+            \item $recipes.ingredients$
+        $endfor$
+        \end{itemize}
+
+        $recipes.text$
     $endif$
 $sep$\clearpage
 $endfor$
