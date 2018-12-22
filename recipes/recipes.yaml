@@ -9,6 +9,116 @@ recipes:
         file: img/ragu-napoletano-0.jpg
         landscape: y
 
+    - title: Spaghetti alle vongole
+      ingredients:
+        - vongole
+        - vino bianco
+        - spaghetti Voiello o altra marca di buona qualità
+        - farina
+        - prezzemolo
+        - olio
+        - sale
+        - pepe
+      text: Maybe some text.
+      figure:
+        file: img/spaghetti-vongole-0.jpg
+        landscape: y
+
+    - title: Spaghetti al salmone e arancello
+      ingredients:
+        - salmone affumicato
+        - arancello
+        - coriandolo
+        - spaghetti Voiello o altra marca di buona qualità
+        - olio
+      text: Maybe some text.
+      figure:
+        file: img/spaghetti-salmone-arancello-2.jpg
+        landscape: y
+
+    - title: Trofie pomodorini e funghi
+      ingredients:
+        - trofie fresche
+        - champignons
+        - pomodorini
+        - pecorino romano
+        - aglio
+        - olio
+        - sale
+      text: Maybe some text.
+      figure:
+        file: img/trofie-funghi-pomodoro-0.jpg
+        landscape: y
+
+    - title: Vongole e fagioli
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/vongole-fagioli-1.jpg
+        landscape: y
+
+    - title: Arancello
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/arancello-0.jpg
+        landscape: y
+
+    - title: Zenzerello
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/arancello-1.jpg
+        landscape: y
+
+    - title: Capriolo al porto
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/capriolo-porto-2.jpg
+        landscape: y
+
+    - title: Gnocchi gorgonzola, rucola e peperoni
+      ingredients:
+        - gnocchi
+        - gorgonzola
+        - rucola
+        - peperoni
+        - olio
+        - sale
+      text: Maybe some text.
+      figure:
+        file: img/gnocchi-gorgonzola-rucola-peperoni-1.jpg
+        landscape: y
+
+    - title: Orecchiette con le cime di rapa
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/orecchiette-rapa-0.jpg
+        landscape: y
+
+    - title: Pane con il lievito madre
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/pane-lievito-madre-1.jpg
+        landscape: y
+
+    - title: Pasta pesto e melanzane
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/pasta-melanzane-pesto-1.jpg
+        landscape: y
+
     - title: Tagliata di tonno al mandarino
       ingredients:
         - filetto di tonno fresco
@@ -59,16 +169,6 @@ recipes:
         file: img/pasta-e-fagioli-1.jpg
         landscape: y
 
-    - title: Recipe title
-      ingredients:
-        - ingredient 1
-        - ingredient 2
-        - ingredient 3
-      text: Maybe some text.
-      figure:
-        file: img/test/test.jpg
-        landscape: n
-
     - title: Carbonara
       ingredients:
         - ingredient 1
@@ -78,4 +178,190 @@ recipes:
       figure:
         file: img/carbonara-0.jpg
         landscape: n
+
+    - title: Pesto di rucola
+      ingredients:
+        - rucola avanzata
+        - parmigiano e/o pecorino romano
+        - olio buono
+        - mandorle o pinoli tritati
+        - aglio
+      text: Maybe some text.
+      figure:
+        file: img/pasta-pomodoro-alici-pesto-rucola-0.jpg
+        landscape: y
+
+    - title: Pasta con il sugo al pesto di rucola
+      ingredients:
+        - tritatutto con avanzo di pesto di rucola
+        - olio
+        - acciughe
+        - aglio
+        - pomodori freschi
+        - sale
+      text:
+        "Soffriggere le acciughe e un po' di aglio in padella.
+        Aggiungere i pomodori freschi tagliati a pezzetti, cuocere
+        finché non si sciolgono. Sfumare con acqua se necessario.
+        Quando il sugo è pronto, passarlo nel tritatutto con gli avanzi
+        di pesto, poi rimettere in padella e cuocere altri 5 minuti.
+        Condire la pasta."
+      figure:
+        file: img/pasta-pomodoro-alici-pesto-rucola-0.jpg
+        landscape: y
+
+    - title: Patate arrosto con salmone e chevrotin
+      ingredients:
+        - patate novelle
+        - formaggio chevrotin
+        - salmone affumicato
+        - burro
+        - sale e pepe
+      text:
+        "Lessare le patate novelle con la buccia in acqua salata.
+        Imburrare una teglia e disporre le patate a pezzi,
+        il salmone e coprire con pezzi di chevrotin. Pepare e passare
+        in forno finché il formaggio non è sciolto e le patate hanno la crosta."
+      figure:
+        file: img/patate-salmone-chevrotin-1.jpg
+        landscape: y
+
+    - title: Purè di avanzi e scamorza
+      ingredients:
+        - "verdure avanzate dal brodo: patate, carote, sedano..."
+        - latte
+        - scamorza
+        - peperoncino
+        - noce moscata
+        - sale
+      text:
+        "Tritare le verdure con il latte.
+        Aggiungere un pizzico di noce moscata e sale se necessario.
+        Passare due minuti in microonde con la scamorza
+        a cubetti e un po' di peperoncino."
+      figure:
+        file: img/puree-scamorza-1.jpg
+        landscape: y
+
+    - title: Ragù alla bolognese
+      ingredients:
+        - carne macinata
+        - salsiccia
+        - vino rosso
+        - passata di pomodoro
+        - cipolla
+        - sale
+        - olio
+        - eventuali croste di parmigiano e cotenne
+      text: Maybe some text.
+      figure:
+        file: img/ragu-0.jpg
+        landscape: y
+
+    - title: Ribollita
+      ingredients:
+        - pane raffermo a pezzetti
+        - patate
+        - fagioli (borlotti e cannellini)
+        - cavolo nero
+        - verza
+        - carote
+        - cipolla
+        - croste di parmigiano
+        - cotenne o scarti di prosciutto
+        - una foglia di alloro
+        - sale e pepe
+        - peperoncino
+        - olio
+      text:
+        "Soffriggere cipolla e carota nella pentola a pressione con olio e cotenne.
+        Lavare bene e tagliare a pezzetti tutte le verdure, sbucciare le patate, eliminare le coste
+        di verza e cavolo nero. Aggiungere tutti gli ingredienti nella pentola
+        e aggiungere acqua a coprire. Lasciar cuocere almeno 40 minuti
+        a partire dall'entrata in pressione. Aprire e regolare il sapore (sale/pepe).
+        Eliminare le cotenne e l'alloro, lasciar proseguire la cottura qualche decina di minuti
+        se necessario. Al termine aggiungere un filo d'olio a crudo."
+      figure:
+        file: img/ribollita-0.jpg
+        landscape: y
+
+    - title: Schwedenkreuter
+      ingredients:
+        - 3 bottiglie da 0.7 l di Korn o Doppelkorn
+        - 1 busta di erbe per \`\`Bitterer Schwedentropfen\'\' di Maria Treben (90 g)
+      text: 
+        "Versare erbe e Korn in un contenitore da almeno 2.2 litri
+        a chiusura ermetica. Lasciare in infusione per circa 21 giorni,
+        dopodiché filtrare via le erbe ed imbottigliare."
+      figure:
+        file: img/schwedenkreuter-0.jpg
+        landscape: n
+
+    - title: Pizza/focaccia
+      ingredients:
+        - 150 g lievito madre rinfrescato
+        - 130 g couscous/semolino
+        - 60 g farina di grano saraceno
+        - 160 g farina bianca
+        - 150-200 ml acqua tiepida, a seconda dell'umidità del lievito
+        - 1 cucchiaino scarso di sale fino
+        - 4 cucchiaini d'olio
+        - 1 cucchiaino di miele
+      text: 
+        "Tritare il semolino finché non è una polvere sottile.
+        Mettere in una ciotola il lievito con l'acqua tiepida e il miele,
+        sciogliere il lievito madre. Aggiungere poi le due farine ed
+        il semolino macinato, e impastare su un piano finché l'impastico
+        non diventa elastico e smette di rompersi. Allora aggiungere sale
+        e olio, e continuare ad impastare. Formare una palla e mettere
+        a riposare nella ciotola, coprendo con un panno umido."
+      figure:
+        file: img/pizza-focaccia-0.jpg
+        landscape: y
+
+    - title: Filetto di cavallo in crosticina
+      ingredients:
+        - 100-150 g filetto o pavè di cavallo
+        - pane raffermo
+        - prezzemolo
+        - origano
+        - peperoncino
+        - olio
+        - aglio
+        - sale
+      text: 
+        "Tritare il pane raffermo con prezzemolo, origano, sale e parte del
+        peperoncino. Soffriggere in padella con olio uno spicchio d'aglio
+        senza anima e un pezzo di peperoncino. Rimuoverli, e aggiungere
+        il trito. Aggiungere infine il filetto, rosolare velocemente 1-2
+        minuti per lato."
+      figure:
+        file: img/cavallo-crosticina-3.jpg
+        landscape: n
+
+    - title: Pane con pasta madre
+      ingredients:
+        - ingredient 1
+      text: Da https://blog.giallozafferano.it/ricetteconamore/pane-casereccio-di-gabriele-bonci-con-pasta-madre/
+      figure:
+        file: img/pane-pasta-madre-2.jpg
+        landscape: y
+
+    - title: Vin brulé
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/vin-brulee-1.jpg
+        landscape: y
+
+    - title: Pasta ai porri
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/pasta-porri-0.jpg
+        landscape: n
+
 ...
+
