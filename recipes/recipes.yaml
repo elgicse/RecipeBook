@@ -188,7 +188,7 @@ recipes:
         - aglio
       text: Maybe some text.
       figure:
-        file: img/pasta-pomodoro-alici-pesto-rucola-0.jpg
+        file: img/pesto-rucola-0.jpg
         landscape: y
 
     - title: Pasta con il sugo al pesto di rucola
@@ -362,6 +362,241 @@ recipes:
       figure:
         file: img/pasta-porri-0.jpg
         landscape: n
+
+    - title: Minestra di cavolfiore
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/zuppa-cavolfiore-0.jpg
+        landscape: y
+
+    - title: Pesto di pistacchi
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/pesto-pistacchi-0.jpg
+        landscape: y
+
+    - title: Maiale in crosta, o ``gambe di bambino''
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/maiale-crosta-0.jpg
+        landscape: y
+
+    - title: >-
+        Colazione inglese: salmone
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/colazione-inglese-salmone-0.jpg
+        landscape: y
+
+    - title: Pollo alla senape
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/pollo-senape-0.jpg
+        landscape: n
+
+    - title: Orecchiette broccoli e merluzzo
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/orecchiette-broccoli-merluzzo-2.jpg
+        landscape: n
+
+    - title: Baci di dama
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/baci-dama-0.jpg
+        landscape: y
+
+    - title: Straccetti ai funghi
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/straccetti-funghi-0.jpg
+        landscape: y
+
+    - title: Tagliata al tartufo
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/tagliata-tartufo-0.jpg
+        landscape: y
+
+    - title: Anatra all'arancia
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/anatra-arancia-0.jpg
+        landscape: y
+
+    - title: Anatra ai funghi
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/anatra-funghi-0.jpg
+        landscape: y
+
+    - title: Biscottini di Natale
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/biscottini-natale-0.jpg
+        landscape: y
+
+    - title: Polpette sull'alloro
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/polpette-alloro-2.jpg
+        landscape: y
+
+    - title: Pollo alla birra
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/pollo-birra-0.jpg
+        landscape: y
+
+    - title: Riso e piselli
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/riso-piselli-0.jpg
+        landscape: y
+
+    - title: Frittata di maccheroni
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/frittata-maccheroni-0.jpg
+        landscape: y
+
+    - title: Crêpes salate
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/crepes-salate-0.jpg
+        landscape: y
+
+    - title: Brodo di pollo
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/brodo-pollo-0.jpg
+        landscape: y
+
+    - title: Polpette
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/polpette-0.jpg
+        landscape: y
+
+    - title: Ragù alla bolognese
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/ragu-4.jpg
+        landscape: y
+
+    - title: Cuscus di verdure
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/cuscus-verdure-1.jpg
+        landscape: y
+
+    - title: RAVIOLOBURGER
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/ravioloburger-0.jpg
+        landscape: y
+
+    - title: Cappelletti
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/cappelletti-2.jpg
+        landscape: y
+
+    - title: Camembert in crosta
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/camembert-in-crosta-2.jpg
+        landscape: y
+
+    - title: Miniburger
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/miniburger-lardo-0.jpg
+        landscape: y
+
+    - title: Tagliatelle
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/tagliatelle-0.jpg
+        landscape: n
+
+    - title: Trofie con nduja e provolone piccante
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/trofie-nduja-provolone-0.jpg
+        landscape: n
+
+    - title: Nikujaga
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/nikujaga-0.jpg
+        landscape: n
+
+    - title: Broccoli con le alici
+      ingredients:
+        - ingredient 1
+      text: Maybe some text.
+      figure:
+        file: img/broccoli-alici-0.jpg
+        landscape: y
+
+
 
 ...
 
