@@ -597,6 +597,62 @@ recipes:
         landscape: y
 
 
+    - title: Ravoli con rape rosse e semi di papavero
+      ingredients:
+        - 550 g farina (per 6 porzioni)
+        - 4 uova grandi
+        - 2 rape rosse grandi, cotte
+        - 8 cucchiai di semi di papavero
+        - 160 g burro
+        - 1 spicchio d'aglio grande o 2 piccoli
+        - 30 g pecorino romano
+        - 200 g formaggio francese a pasta morbida (tipo Chaumes)
+        - qualche foglia di salvia
+        - olio
+        - sale
+        - pepe
+        - peperoncino
+      text: 
+        "Impastare la farina con 2 cucchiai di olio, 2 cucchiaini
+        di sale e un po' d'acqua se serve. Far riposare la palla di
+        impasto pronto per circa 15 minuti avvolta in un panno.
+        Nel frattempo spremere l'aglio, tritarlo insieme a pecorino romano,
+        salvia e rape, aggiungere un po' di peperoncino fresco. Soffriggere in
+        padella con olio e lasciare intiepidire. Stendere le sfoglie di pasta,
+        e con un coppapasta ritagliare dei tondi di circa 10-12 cm di diametro.
+        Al centro di ciascun tondo mettere una cucchiaiata di sugo di rape
+        e 2-3 cubetti (di mezzo cm di lato) di formaggio. Chiudere i tondi di pasta
+        su se stessi premendo i bordi prima con le mani e poi con i rebbi di
+        una forchetta. Cuocere per 5 minuti, mentre si fa sciogliere il burro in
+        padella insieme ai semi di girasole. Condire."
+      figure:
+        file: img/ravioli-rape-rosse-0.jpg
+        landscape: y
+
+
+    - title: Crostata
+      ingredients:
+        - 300 g farina
+        - 115 g burro
+        - 100 g zucchero
+        - 2 uova
+        - buccia grattugiata di 1-2 limoni
+        - 1 pizzico bicarbonato
+        - 1 barattolo da almeno 400 g di marmellata
+      text:
+        "Impastare farina, zucchero, uova, bicarbonato, buccia di un limone
+        e burro tagliato a pezzetti. Quando l'impasto è una palla omogenea
+        ed elastica, avvolgerla nella pellicola trasparente e farla riposare
+        mezz'ora in frigo. Stendere la pasta frolla fino ad uno spessore di
+        circa 3-4 mm, e ricoprire una teglia imburrata. Bucherellare con una
+        forchetta, poi coprire di marmellata. Usare la pasta frolla rimasta
+        per decorare la crostata con losanghe e un cordino laterale.
+        Infornare a 180 gradi (165 se ventilato) per 35-40 minuti."
+      figure:
+        file: img/crostata-0.jpg
+        landscape: y
+
+
 
 ...
 
